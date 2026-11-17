@@ -1,0 +1,7 @@
+interface:
+  display_name: "IPO Guru"
+  short_description: "Indian IPO analysis, IPO Guru data"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#0055FE"
+  default_prompt: "Analyse the <IPO name> IPO"

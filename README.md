@@ -35,7 +35,8 @@ for GMP and subscription, and ends with a disclaimer.
 
 ### Claude (claude.ai and Claude Desktop)
 
-1. Download the skill you want from [`dist/`](dist/) (e.g. `ipo-fundamentals.zip`).
+1. Download [`dist/ipo-guru.zip`](dist/ipo-guru.zip): one skill that contains all five playbooks and picks the
+   right one for each question. (Prefer separate skills? Each one is in [`dist/`](dist/) too, e.g. `ipo-fundamentals.zip`.)
 2. In Claude, open **Settings → Capabilities**, make sure Skills are turned on, and upload the zip.
 3. Keep web search turned on, because the skills read ipoguru.in pages.
 
@@ -59,7 +60,8 @@ Create a Gem by following [`custom-assistants/README.md`](custom-assistants/READ
 
 ### Other assistants with Agent Skills support
 
-Copy the folders inside [`skills/`](skills/) into your assistant's skills directory.
+Copy [`bundle/ipo-guru/`](bundle/ipo-guru/) (all five in one skill), or the folders inside [`skills/`](skills/),
+into your assistant's skills directory.
 
 ## How the skills stay on IPO Guru data
 
