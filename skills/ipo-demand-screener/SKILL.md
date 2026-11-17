@@ -104,6 +104,8 @@ Then for each ranked IPO, 3 lines:
 
 Then:
 - **Not ranked:** IPOs with too little data (name + what's missing).
-- One line: "Demand Score combines GMP %, subscription and analyst sentiment from IPO Guru using the
-  formula above. It summarises demand data and is not a prediction of listing gains."
+- **How the Demand Score works** (always print this, with the bands for the segment(s) shown):
+  "Demand Score = average of the available components: GMP points (<bands>), subscription points
+  (<bands>) and the IPO Guru analyst sentiment score /100. Needs at least 2 of the 3. It summarises
+  demand data and is not a prediction of listing gains."
 - Links + disclaimer.
