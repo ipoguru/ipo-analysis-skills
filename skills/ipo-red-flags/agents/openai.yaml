@@ -1,0 +1,7 @@
+interface:
+  display_name: "IPO Red Flags"
+  short_description: "16-point IPO risk checklist"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#0055FE"
+  default_prompt: "Red-flag check on the <IPO name> IPO"

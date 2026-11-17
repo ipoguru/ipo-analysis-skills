@@ -1,0 +1,7 @@
+interface:
+  display_name: "IPO Demand Screener"
+  short_description: "Rank IPOs by GMP, subscription, reviews"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#0055FE"
+  default_prompt: "Which IPOs are open this week, ranked by demand?"

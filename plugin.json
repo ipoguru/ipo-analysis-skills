@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ipo-guru",
+  "version": "1.0.0",
+  "description": "Indian IPO analysis from IPO Guru (ipoguru.in): fundamentals, deep dive with RHP citations, red-flag check, GMP + subscription + analyst-sentiment screener, and side-by-side comparison.",
+  "author": { "name": "IPO Guru", "email": "info@ipoguru.in", "url": "https://www.ipoguru.in" },
+  "homepage": "https://www.ipoguru.in",
+  "repository": "https://github.com/ipoguru/ipo-analysis-skills",
+  "license": "MIT",
+  "keywords": ["ipo", "india", "gmp", "nse", "bse", "sme-ipo", "ipo-review", "stock-market"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "IPO Guru",
+        "shortDescription": "Indian IPO research & GMP",
+        "longDescription": "Analyse Indian IPOs (mainboard and SME) using IPO Guru data and the company's RHP/DRHP.\n\n- Fundamentals: business, 3-year financials, valuation, issue structure, demand, strengths and risks\n- Analyst consensus: IPO Guru's sentiment score, every analyst's verdict, and the listing / short-term / long-term view\n- Deep dive: accounting red flags, fresh issue vs OFS, valuation vs peers, promoters, litigation, with page citations\n- Red-flag check: 16 published checks with a rule-based Low / Medium / High level\n- Demand screener: ranks open and upcoming IPOs by GMP, subscription and analyst sentiment\n- Compare IPOs side by side\n\nEvery answer cites the IPO Guru page it used and gives timestamps for GMP and subscription. IPO Guru does not make buy or sell recommendations; analyst views belong to the respective analysts. GMP is unofficial and is not a reliable guide to listing price.",
+        "developerName": "IPO Guru",
+        "category": "Finance",
+        "capabilities": ["Read"],
+        "websiteURL": "https://www.ipoguru.in",
+        "privacyPolicyURL": "https://www.ipoguru.in/privacy-policy",
+        "termsOfServiceURL": "https://www.ipoguru.in/terms-conditions",
+        "supportURL": "https://www.ipoguru.in/contact-us",
+        "defaultPrompt": [
+          "Which mainboard IPOs are open this week, ranked by GMP, subscription and analyst sentiment?",
+          "Analyse the latest mainboard IPO: fundamentals, valuation and what analysts say.",
+          "Run a red-flag check on the latest SME IPO."
+        ],
+        "brandColor": "#0055FE",
+        "brandColorDark": "#0055FE",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

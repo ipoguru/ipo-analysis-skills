@@ -1,0 +1,7 @@
+interface:
+  display_name: "IPO Fundamentals"
+  short_description: "Full IPO report with analyst consensus"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#0055FE"
+  default_prompt: "Analyse the <IPO name> IPO"

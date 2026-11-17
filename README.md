@@ -45,10 +45,17 @@ for GMP and subscription, and ends with a disclaimer.
 gemini extensions install https://github.com/ipoguru/ipo-analysis-skills
 ```
 
-### ChatGPT and the Gemini app
+### ChatGPT
 
-Create a Custom GPT or a Gem by following [`custom-assistants/README.md`](custom-assistants/README.md).
-It takes about five minutes.
+Download [`dist/ipo-guru-chatgpt-plugin.zip`](dist/ipo-guru-chatgpt-plugin.zip). In ChatGPT, open **Plugins** and
+upload it. It installs all five skills as one **IPO Guru** plugin.
+
+If your ChatGPT has no Plugins section, create a Custom GPT instead by following
+[`custom-assistants/README.md`](custom-assistants/README.md).
+
+### Gemini app
+
+Create a Gem by following [`custom-assistants/README.md`](custom-assistants/README.md). It takes about five minutes.
 
 ### Other assistants with Agent Skills support
 
