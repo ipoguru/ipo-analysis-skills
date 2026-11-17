@@ -1,0 +1,10 @@
+{
+  "name": "ipo-analysis",
+  "version": "1.0.0",
+  "description": "Indian IPO analysis from IPO Guru (ipoguru.in): fundamentals, deep dive with RHP citations, red-flag check, GMP + subscription + analyst-sentiment screener, and side-by-side comparison.",
+  "author": { "name": "IPO Guru", "email": "info@ipoguru.in", "url": "https://www.ipoguru.in" },
+  "homepage": "https://www.ipoguru.in",
+  "repository": "https://github.com/ipoguru/ipo-analysis-skills",
+  "license": "MIT",
+  "keywords": ["ipo", "india", "gmp", "nse", "bse", "sme-ipo", "ipo-review", "stock-market"]
+}

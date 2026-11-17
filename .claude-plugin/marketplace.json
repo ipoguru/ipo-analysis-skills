@@ -1,0 +1,13 @@
+{
+  "name": "ipoguru",
+  "owner": { "name": "IPO Guru", "email": "info@ipoguru.in" },
+  "metadata": { "description": "IPO Guru skills for Indian IPO research", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "ipo-analysis",
+      "source": "./",
+      "description": "Indian IPO analysis from IPO Guru (ipoguru.in): fundamentals, deep dive, red flags, screener and comparison.",
+      "version": "1.0.0"
+    }
+  ]
+}
